@@ -72,7 +72,7 @@ describe('detail-page', () => {
   })
 
   //giống giống ở trên, nhưng mà khác
-  it.only('choose type 2', () => { 
+  it('choose type 2', () => { 
     cy.visit(page)
 
     cy.get('body').then(body => {
